@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main(void){
+    int a=3.3, b=4.5, c=5.0, d=3.4, e=4.2, f=5.3, g=3.2, h=4.3, i=5.2, j=7.1, k=3.3, l=4.8, m=5.2;
+			
+			//lo hice de la forma mas facil, me quedo muy claro como usar while
+			
+	if (a||b||c||d||e||f||g||h||i||j||k||l||m<3.3)
+	printf("Imperceptible, sin problema \n");
+	
+	if ((a||b||c||d||e||f||g||h||i||j||k||l||m>3.5)&&(a||b||c||d||e||f||g||h||i||j||k||l||m<5.4))
+	printf("Sin problemas, avisar \n");
+		
+	if ((a||b||c||d||e||f||g||h||i||j||k||l||m>5.5)&&(a||b||c||d||e||f||g||h||i||j||k||l||m<6.0))
+	printf("Emitir alerta, desalojar \n");
+	
+	if ((a||b||c||d||e||f||g||h||i||j||k||l||m>6.1)&&(a||b||c||d||e||f||g||h||i||j||k||l||m<6.9))
+	printf("Emitir alerta, enviar equipos de apoyo \n");
+	
+	if ((a||b||c||d||e||f||g||h||i||j||k||l||m>7.0)&&(a||b||c||d||e||f||g||h||i||j||k||l||m<7.9))
+	printf("Emitir alerta, enviar equipos de rescate \n");
+	
+	if (a>8)
+	printf("Emergencia nacional, solicitar apoyo externo \n");
+	
+	return 0;
+	
+	
+	
+	
+}
